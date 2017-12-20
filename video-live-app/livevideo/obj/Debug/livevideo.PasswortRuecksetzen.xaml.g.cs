@@ -11,16 +11,16 @@
 namespace livevideo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\HP\\Documents\\GitHub\\video-live-app\\video-live-app\\livevideo\\Registrierun" +
-        "gsPage.xaml")]
-    public partial class RegistrierungsPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\HP\\Documents\\GitHub\\video-live-app\\video-live-app\\livevideo\\PasswortRuec" +
+        "ksetzen.xaml")]
+    public partial class PasswortRuecksetzen : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Grid controlGridRe;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RegistrierungsPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PasswortRuecksetzen));
             controlGridRe = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "controlGridRe");
         }
     }
