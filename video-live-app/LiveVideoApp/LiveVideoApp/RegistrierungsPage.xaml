@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LiveVideoApp.RegistrierungsPage">
+    <ContentPage.Content>
+        <Grid x:Name="controlGridRe" RowSpacing="1" ColumnSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="500" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackLayout BackgroundColor="Lime" Grid.Row="0">
+                <Label Text="Willkommen bei Daniel Brandon Live App" TextColor="Blue" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" FontSize="20" />
+            </StackLayout>
+            <StackLayout Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,80,0,0">
+                <Entry Placeholder="Email-Adresse" TextColor="Black" Keyboard="Email" />
+                <Entry Placeholder="Benutzername" TextColor="Black" Keyboard="Default" />
+                <Entry Placeholder="Password" IsPassword="true" TextColor="Black" Keyboard="Default" />
+                <Entry Placeholder="Password Wiederholen" IsPassword="true" TextColor="Black" Keyboard="Default" />
+                <StackLayout Orientation="Horizontal" Padding="15">
+                    <Switch />
+                    <Label Text="Passwort generieren " />
+                </StackLayout>
+                <Button Text="Registrieren" BackgroundColor="Lime" />
+                <Label />
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                <Label />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Row="2" VerticalOptions="Start" HorizontalOptions="Center">
+                <Label Text="Deutsch" TextColor="Black" />
+                <Label Text="Englisch" TextColor="Blue" />
+                <Label Text="@Daniel Brandon 2018" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

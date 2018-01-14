@@ -1,0 +1,1 @@
+C:\Users\Brandon Njimefo\Documents\GitHub\video-live-app\video-live-app\LiveVideoApp\LiveVideoApp.UWP\LiveVideoApp.UWP.csproj;x86
