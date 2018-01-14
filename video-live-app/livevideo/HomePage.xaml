@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="livevideo.HomePage">
+    <ContentPage Title="Home">
+        <ContentPage.Content>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout BackgroundColor="Gray" Grid.Row="0">
+                    <Label Text="Meine Freunde" TextColor="Blue" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" FontSize="20" />
+                </StackLayout>
+                <ScrollView x:Name="Scroll_Home" Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" Orientation="Horizontal">
+                    <StackLayout x:Name="stack_home">
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Anfragen">
+        <ContentPage.Content>
+            <ScrollView x:Name="Scroll_Home_Anfrage" Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" Orientation="Horizontal">
+                <StackLayout x:Name="stack_home_Anfrage">
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Suchen">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Benutzer Suchen" HorizontalTextAlignment="Center" FontSize="40">
+                </Label>
+                <SearchBar x:Name="SearchUser" Placeholder="Benutzername eingeben">
+                </SearchBar>
+                <ScrollView>
+                    <StackLayout x:Name="StackSearch">
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Aufzeichnen">
+        <ContentPage.Content>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Einstellung">
+        <ContentPage.Content>
+            <StackLayout Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,80,0,0">
+                <StackLayout Orientation="Horizontal" Padding="15">
+                    <Switch />
+                    <Label Text="Live verfügbar für alle Benutzer" />
+                </StackLayout>
+                <Label />
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                <Label />
+                <StackLayout Orientation="Horizontal" Padding="15">
+                    <Switch />
+                    <Label Text="Live verfügbar für meine Freunde" />
+                </StackLayout>
+                <Label />
+                <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                <Label />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>
