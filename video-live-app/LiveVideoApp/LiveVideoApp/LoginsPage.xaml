@@ -14,8 +14,8 @@
                 <Label Text="Willkommen bei Daniel Brandon Live App" TextColor="Blue" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" FontSize="20" />
             </StackLayout>
             <StackLayout Grid.Row="1" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,80,0,0">
-                <Entry Placeholder="Email-Adresse oder Benutzernamee" TextColor="Black" Keyboard="Email" />
-                <Entry Placeholder="Password" IsPassword="true" TextColor="Black" Keyboard="Default" />
+                <Entry Placeholder="Email-Adresse oder Benutzernamee" TextColor="Black" Keyboard="Email" x:Name="Entry_Benutzername"/>
+                <Entry Placeholder="Password" IsPassword="true" TextColor="Black" Keyboard="Default" x:Name="Entry_Password"/>
                 <StackLayout Orientation="Horizontal" Padding="15">
                     <Switch />
                     <Label Text="Loginsdaten merken" />

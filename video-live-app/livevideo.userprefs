@@ -1,12 +1,19 @@
-﻿<Properties StartupConfiguration="{941F8F7D-E4B4-4D30-B22A-10FF6CD70070}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.4.0-21/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+﻿<Properties StartupConfiguration="{D8178B7C-D4C7-4D26-90A5-F879F5DFCA22}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LiveVideoApp/LiveVideoApp/RegistrierungsPage.xaml.cs">
     <Files>
-      <File FileName="livevideo/livevideo.datenbank/datenbank.cs" Line="4" Column="1" />
-      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.4.0-21/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1397" Column="2" />
+      <File FileName="LiveVideoApp/LiveVideoApp/HomePage.xaml" Line="40" Column="35" />
+      <File FileName="LiveVideoApp/LiveVideoApp/Controls/ButtonUser.cs" Line="7" Column="19" />
+      <File FileName="LiveVideoApp/LiveVideoApp/Request/Request.cs" Line="45" Column="38" />
+      <File FileName="LiveVideoApp/LiveVideoApp/HomePage.xaml.cs" Line="121" Column="10" />
+      <File FileName="LiveVideoApp/LiveVideoApp/LoginsPage.xaml.cs" Line="58" Column="63" />
+      <File FileName="LiveVideoApp/LiveVideoApp/User.cs" Line="30" Column="19" />
+      <File FileName="LiveVideoApp/LiveVideoApp/Request/Responce.cs" Line="8" Column="22" />
+      <File FileName="LiveVideoApp/LiveVideoApp/RegistrierungsPage.xaml.cs" Line="42" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.livevideo.Droid PreferredExecutionTarget="Android.LGM7004ef272e5" />
+  <MonoDevelop.Ide.ItemProperties.LiveVideoApp.Android PreferredExecutionTarget="Android.LGM7004ef272e5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
